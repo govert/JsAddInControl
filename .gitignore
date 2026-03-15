@@ -1,0 +1,20 @@
+# Node / Office JS
+OfficeJsAddIn/node_modules/
+OfficeJsAddIn/npm-debug.log*
+OfficeJsAddIn/localhost-devcert.pfx
+OfficeJsAddIn/localhost-devcert.cer
+
+# .NET / Excel-DNA
+ExcelDnaAddIn/bin/
+ExcelDnaAddIn/obj/
+
+# Visual Studio / IDE
+.vs/
+*.user
+*.suo
+
+# OS / temp
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp

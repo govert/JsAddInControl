@@ -1,0 +1,18 @@
+{
+  "name": "testing-excel-js-addin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Excel JavaScript add-in test environment.",
+  "scripts": {
+    "start": "node server.js",
+    "dev-cert": "npx office-addin-dev-certs install",
+    "sideload": "npx office-addin-dev-settings sideload manifest.xml",
+    "unsideload": "npx office-addin-dev-settings unsideload manifest.xml"
+  },
+  "dependencies": {
+    "office-addin-dev-certs": "^2.0.6"
+  },
+  "devDependencies": {
+    "office-addin-dev-settings": "^3.0.6"
+  }
+}
